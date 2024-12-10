@@ -1,6 +1,8 @@
 
 import { connect } from 'cloudflare:sockets';
 
+
+
 let userID = '';
 let proxyIP = '';
 let sub = '';
@@ -11,6 +13,7 @@ let subEmoji = 'true';
 let socks5Address = '';
 let parsedSocks5Address = {}; 
 let enableSocks = false;
+
 
 let fakeUserID ;
 let fakeHostName ;
